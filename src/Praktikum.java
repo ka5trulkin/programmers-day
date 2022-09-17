@@ -17,7 +17,7 @@ public class Praktikum {
             return true;
         }
         if (year % 4 == 0) {
-            return year / 4 % 100 == 0;
+            return year / 4 % 100 != 0;
         }
         return false;
     }
